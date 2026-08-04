@@ -159,7 +159,7 @@ function App() {
             <h2>{copy.about.title}</h2>
             <p className="about-lead">{copy.about.lead}</p>
             <p>{copy.about.body}</p>
-            <a className="text-link" href="https://github.com/syamas77" target="_blank" rel="noreferrer">{copy.about.github} <ArrowUpRight weight="bold" /></a>
+            <a className="text-link" href="https://github.com/shinji-Yama77" target="_blank" rel="noreferrer">{copy.about.github} <ArrowUpRight weight="bold" /></a>
           </div>
         </section>
 
@@ -186,7 +186,7 @@ function App() {
       <footer>
         <a className="wordmark" href="#top">SHINJI<span>®</span></a>
         <p>{copy.footer}</p>
-        <div><a href="https://www.linkedin.com/in/syamas7/" target="_blank" rel="noreferrer">LinkedIn</a><a href="https://github.com/syamas77" target="_blank" rel="noreferrer">GitHub</a><a href="https://devpost.com/syamas" target="_blank" rel="noreferrer">Devpost</a><a href="tel:+817065830777">Phone</a></div>
+        <div><a href="https://www.linkedin.com/in/syamas7/" target="_blank" rel="noreferrer">LinkedIn</a><a href="https://github.com/shinji-Yama77" target="_blank" rel="noreferrer">GitHub</a><a href="https://devpost.com/syamas" target="_blank" rel="noreferrer">Devpost</a><a href="tel:+817065830777">Phone</a></div>
         <p>© {new Date().getFullYear()}</p>
       </footer>
     </div>
