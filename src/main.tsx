@@ -168,7 +168,7 @@ function App() {
             <h2 id="services-title">{copy.experience.title}</h2>
           </div>
           <div className="services-list" data-reveal>
-            <div><span>{copy.experience.amazonDate}</span><h3>Amazon</h3><p>{copy.experience.amazon}</p></div>
+            <div><span>{copy.experience.amazonDate}</span><h3>Amazon A9 Search</h3><p>{copy.experience.amazon}</p></div>
             <div><span>{copy.experience.devmatchDate}</span><h3>DevMatch</h3><p>{copy.experience.devmatch}</p></div>
             <div><span>{copy.experience.maqDate}</span><h3>MAQ Software</h3><p>{copy.experience.maq}</p></div>
             <div><span>{copy.experience.uwDate}</span><h3>University of Washington</h3><p>{copy.experience.uw}</p></div>

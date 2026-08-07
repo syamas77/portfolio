@@ -10,7 +10,7 @@ export const translations = {
   en: {
     nav: { work: 'Work', about: 'About', contact: 'Contact', hello: 'Say hello' },
     hero: {
-      eyebrow: 'Software Development Engineer at Amazon',
+      eyebrow: 'Software Development Engineer at Amazon A9 Search',
       before: 'I turn complexity into ', emphasis: 'useful', after: ' software.',
       summary: 'Search infrastructure, AI systems, and full-stack products built for speed, scale, and real-world use.',
       explore: 'Explore selected work',
@@ -54,7 +54,7 @@ export const translations = {
   ja: {
     nav: { work: '作品', about: '紹介', contact: '連絡', hello: 'メールする' },
     hero: {
-      eyebrow: 'Amazon ソフトウェア開発エンジニア',
+      eyebrow: 'Amazon A9 Search ソフトウェア開発エンジニア',
       before: '複雑さを', emphasis: '使える', after: 'ソフトウェアへ。',
       summary: '検索基盤、AIシステム、フルスタック製品を、速度と規模、実用性を重視して開発しています。',
       explore: 'プロジェクトを見る',
@@ -98,7 +98,7 @@ export const translations = {
   'zh-Hant': {
     nav: { work: '作品', about: '關於', contact: '聯絡', hello: '寄信給我' },
     hero: {
-      eyebrow: 'Amazon 軟體開發工程師',
+      eyebrow: 'Amazon A9 Search 軟體開發工程師',
       before: '將複雜問題化為', emphasis: '實用', after: '軟體。',
       summary: '打造兼具速度、規模與實際價值的搜尋基礎架構、AI 系統及全端產品。',
       explore: '查看精選作品',
