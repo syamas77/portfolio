@@ -147,7 +147,12 @@ function App() {
             <h2 id="current-title">{copy.current.title}</h2>
             <h3>{copy.current.project}</h3>
             <p>{copy.current.description}</p>
-            <span>{copy.current.status}</span>
+            <div className="current-actions">
+              <span>{copy.current.status}</span>
+              <a className="text-link" href="https://github.com/syamas77/jp-govtenders" target="_blank" rel="noreferrer">
+                {copy.current.link} <ArrowUpRight weight="bold" />
+              </a>
+            </div>
           </div>
         </section>
 

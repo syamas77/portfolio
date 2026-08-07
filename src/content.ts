@@ -27,9 +27,10 @@ export const translations = {
     },
     current: {
       title: 'Currently working on',
-      project: 'Japan Procurement',
-      description: 'A procurement project for teams operating in Japan. More product details will be shared as development progresses.',
-      status: 'In development',
+      project: 'jp-govtenders',
+      description: 'An open-source Python research pipeline for Japanese public procurement. It collects official KKJ notices, normalizes XML into SQLite, and analyzes regional trends and IT-service demand through a reproducible taxonomy.',
+      status: 'Active research',
+      link: 'View research',
     },
     about: {
       title: 'Building cool stuff, one useful system at a time.',
@@ -71,9 +72,10 @@ export const translations = {
     },
     current: {
       title: '現在取り組んでいること',
-      project: 'Japan Procurement',
-      description: '日本で事業を行うチーム向けの調達プロジェクトです。開発の進捗に合わせて、詳細を公開していきます。',
-      status: '開発中',
+      project: 'jp-govtenders',
+      description: '日本の公共調達を分析するオープンソースのPython研究パイプラインです。公式KKJ APIから公告を収集し、XMLをSQLiteに正規化して、地域別動向とITサービス需要を再現可能な分類体系で分析します。',
+      status: '調査中',
+      link: 'GitHubで見る',
     },
     about: {
       title: '役に立つ仕組みを、一つずつ。',
@@ -115,9 +117,10 @@ export const translations = {
     },
     current: {
       title: '目前正在開發',
-      project: 'Japan Procurement',
-      description: '為在日本營運的團隊打造採購專案。更多產品資訊將隨開發進度陸續公開。',
-      status: '開發中',
+      project: 'jp-govtenders',
+      description: '研究日本政府採購的開源 Python 管線。從官方 KKJ API 蒐集公告，將 XML 正規化至 SQLite，並透過可重現的分類法分析區域趨勢與 IT 服務需求。',
+      status: '研究進行中',
+      link: '查看研究',
     },
     about: {
       title: '一次打造一個真正實用的系統。',
