@@ -1,6 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import { ArrowDownRight, ArrowUpRight, List, Package, X, YoutubeLogo } from '@phosphor-icons/react'
+import { ArrowDownRight, ArrowUpRight, GitCommit, List, Package, X, YoutubeLogo } from '@phosphor-icons/react'
 import '@fontsource-variable/manrope'
 import { WebGLBackground } from './WebGLBackground'
 import { languageLabels, translations, type Language } from './content'
@@ -33,8 +33,8 @@ const projects = [
     year: '2024',
     image: '/images/neural-network.png',
     url: 'https://github.com/syamas77/neuralnets',
-    secondaryUrl: null,
-    secondaryAction: null,
+    secondaryUrl: 'https://github.com/syamas77/neuralnets/commit/1aa0ae7b8fb869ceeb098952035a5fef2db6743c',
+    secondaryAction: 'commit' as const,
     className: 'project project-neuralnets',
   },
 ]
@@ -128,7 +128,11 @@ function App() {
           </div>
           <div className="project-grid">
             {projects.map((project, index) => {
-              const secondaryLabel = project.secondaryAction === 'video' ? copy.work.video : copy.work.npm
+              const secondaryLabel = project.secondaryAction === 'video'
+                ? copy.work.video
+                : project.secondaryAction === 'commit'
+                  ? copy.work.kaggle
+                  : copy.work.npm
               return (
                 <article className={project.className} key={project.title} data-reveal style={{ '--delay': `${index * 80}ms` } as React.CSSProperties}>
                   <a href={project.url} target="_blank" rel="noreferrer" aria-label={`${copy.work.viewProject}: ${project.title}`}>
@@ -143,7 +147,11 @@ function App() {
                   </a>
                   {project.secondaryUrl && (
                     <a className="project-video" href={project.secondaryUrl} target="_blank" rel="noreferrer">
-                      {project.secondaryAction === 'video' ? <YoutubeLogo weight="fill" /> : <Package weight="fill" />}
+                      {project.secondaryAction === 'video'
+                        ? <YoutubeLogo weight="fill" />
+                        : project.secondaryAction === 'commit'
+                          ? <GitCommit weight="bold" />
+                          : <Package weight="fill" />}
                       {secondaryLabel}
                     </a>
                   )}
