@@ -36,7 +36,7 @@ export const translations = {
     about: {
       title: 'Building cool stuff, one useful system at a time.',
       lead: 'I’m Shinji, a trilingual software engineer in Tokyo working on Search Core at Amazon.',
-      body: 'I build with Python, TypeScript, C#, Java, C++, and SQL across React, Node.js, FastAPI, Angular, AWS, and Azure. I earned my B.S. in Informatics and Data Science from the University of Washington.',
+      body: 'I build with Python, TypeScript, C#, Java, C++, and SQL across React, Node.js, FastAPI, Angular, AWS, and Azure. I earned my B.S. in Informatics and Data Science from the University of Washington. I also enjoy data analysis, especially turning messy public datasets into clear, reproducible findings.',
       github: 'View GitHub',
     },
     experience: {
@@ -82,7 +82,7 @@ export const translations = {
     about: {
       title: '役に立つ仕組みを、一つずつ。',
       lead: '東京でAmazon Search Coreに携わる、3言語対応のソフトウェアエンジニアです。',
-      body: 'Python、TypeScript、C#、Java、C++、SQLを使い、React、Node.js、FastAPI、Angular、AWS、Azureで開発しています。ワシントン大学で情報学・データサイエンスの学士号を取得しました。',
+      body: 'Python、TypeScript、C#、Java、C++、SQLを使い、React、Node.js、FastAPI、Angular、AWS、Azureで開発しています。ワシントン大学で情報学・データサイエンスの学士号を取得しました。データ分析も好きで、複雑な公開データを明確で再現可能な知見に変えることに関心があります。',
       github: 'GitHubを見る',
     },
     experience: {
@@ -128,7 +128,7 @@ export const translations = {
     about: {
       title: '一次打造一個真正實用的系統。',
       lead: '我是 Shinji，在東京 Amazon Search Core 工作的三語軟體工程師。',
-      body: '我使用 Python、TypeScript、C#、Java、C++ 與 SQL，並以 React、Node.js、FastAPI、Angular、AWS 及 Azure 開發產品。我擁有華盛頓大學資訊學與資料科學學士學位。',
+      body: '我使用 Python、TypeScript、C#、Java、C++ 與 SQL，並以 React、Node.js、FastAPI、Angular、AWS 及 Azure 開發產品。我擁有華盛頓大學資訊學與資料科學學士學位。我也喜歡資料分析，尤其是將雜亂的公開資料轉化為清楚且可重現的洞見。',
       github: '查看 GitHub',
     },
     experience: {
