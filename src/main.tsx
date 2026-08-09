@@ -27,6 +27,16 @@ const projects = [
     secondaryAction: 'video' as const,
     className: 'project project-wide project-foxtral',
   },
+  {
+    title: 'Neural Networks From Scratch',
+    typeKey: 'neuralnets' as const,
+    year: '2024',
+    image: '/images/neural-network.png',
+    url: 'https://github.com/syamas77/neuralnets',
+    secondaryUrl: null,
+    secondaryAction: null,
+    className: 'project project-neuralnets',
+  },
 ]
 
 const languages = Object.keys(languageLabels) as Language[]
@@ -131,10 +141,12 @@ function App() {
                       <time>{project.year}</time>
                     </div>
                   </a>
-                  <a className="project-video" href={project.secondaryUrl} target="_blank" rel="noreferrer">
-                    {project.secondaryAction === 'video' ? <YoutubeLogo weight="fill" /> : <Package weight="fill" />}
-                    {secondaryLabel}
-                  </a>
+                  {project.secondaryUrl && (
+                    <a className="project-video" href={project.secondaryUrl} target="_blank" rel="noreferrer">
+                      {project.secondaryAction === 'video' ? <YoutubeLogo weight="fill" /> : <Package weight="fill" />}
+                      {secondaryLabel}
+                    </a>
+                  )}
                 </article>
               )
             })}

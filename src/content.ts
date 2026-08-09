@@ -24,6 +24,7 @@ export const translations = {
       video: 'Watch demo',
       smartLayer: 'Browser tool for simplifying Japanese paperwork',
       foxtral: 'Top 5 Mistral AI Hackathon finalist powered by Voxtral and Godot',
+      neuralnets: 'Built before modern AI coding tools. I implemented the math, feedforward pass, binary loss, backpropagation, and weight updates myself in Python and NumPy.',
     },
     current: {
       title: 'Currently working on',
@@ -70,6 +71,7 @@ export const translations = {
       video: 'デモを見る',
       smartLayer: '日本の行政手続きを簡単にするブラウザツール',
       foxtral: 'VoxtralとGodotで開発したMistral AI Hackathonトップ5作品',
+      neuralnets: '現在のAIコーディングツールが普及する前に開発。PythonとNumPyで数式、順伝播、二値損失、誤差逆伝播、重み更新を自分で実装しました。',
     },
     current: {
       title: '現在取り組んでいること',
@@ -116,6 +118,7 @@ export const translations = {
       video: '觀看示範',
       smartLayer: '簡化日本行政表單流程的瀏覽器工具',
       foxtral: '以 Voxtral 與 Godot 打造的 Mistral AI Hackathon 前五名作品',
+      neuralnets: '在現代 AI 程式工具普及前完成。我以 Python 與 NumPy 親自實作數學、前向傳播、二元損失、反向傳播及權重更新。',
     },
     current: {
       title: '目前正在開發',
