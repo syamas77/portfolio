@@ -28,8 +28,8 @@ export const translations = {
     current: {
       title: 'Currently working on',
       project: 'jp-govtenders',
-      description: 'An open-source Python pipeline analyzing 15,230 KKJ procurement notices, with a published report on 2022-2025 IT-service trends across six prefectures.',
-      status: 'Active research',
+      description: 'An open-source data engineering pipeline collecting, normalizing, and classifying 15,230 KKJ notices across six prefectures. Next: a procurement RAG system for semantic search and evidence-backed exploration.',
+      status: 'Procurement RAG incoming',
       report: 'Read report',
       source: 'Source code',
     },
@@ -74,8 +74,8 @@ export const translations = {
     current: {
       title: '現在取り組んでいること',
       project: 'jp-govtenders',
-      description: '15,230件のKKJ調達公告を分析するオープンソースのPythonパイプラインです。6都道府県における2022-2025年のITサービス動向をレポートとして公開しています。',
-      status: '調査中',
+      description: '6都道府県のKKJ調達公告15,230件を収集・正規化・分類するオープンソースのデータエンジニアリング基盤です。次は、根拠付きの意味検索を行う調達RAGシステムを開発します。',
+      status: '調達RAGを開発予定',
       report: 'レポートを読む',
       source: 'ソースコード',
     },
@@ -120,8 +120,8 @@ export const translations = {
     current: {
       title: '目前正在開發',
       project: 'jp-govtenders',
-      description: '分析 15,230 筆 KKJ 採購公告的開源 Python 管線，並發布涵蓋六個都道府縣之 2022-2025 年 IT 服務趨勢報告。',
-      status: '研究進行中',
+      description: '蒐集、正規化並分類六個都道府縣 15,230 筆 KKJ 公告的開源資料工程管線。下一步將打造採購 RAG 系統，支援語意搜尋與有來源依據的探索。',
+      status: '採購 RAG 即將推出',
       report: '閱讀報告',
       source: '原始碼',
     },
