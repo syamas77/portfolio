@@ -1,6 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import { ArrowDownRight, ArrowUpRight, GitCommit, List, Package, X, YoutubeLogo } from '@phosphor-icons/react'
+import { ArrowDownRight, ArrowUpRight, GitCommit, GraduationCap, List, Package, X, YoutubeLogo } from '@phosphor-icons/react'
 import '@fontsource-variable/manrope'
 import { WebGLBackground } from './WebGLBackground'
 import { languageLabels, translations, type Language } from './content'
@@ -36,6 +36,16 @@ const projects = [
     secondaryUrl: 'https://github.com/syamas77/neuralnets/commit/1aa0ae7b8fb869ceeb098952035a5fef2db6743c',
     secondaryAction: 'commit' as const,
     className: 'project project-neuralnets',
+  },
+  {
+    title: 'Constructiveness in Social Media',
+    typeKey: 'constructiveness' as const,
+    year: 'Jun 2024',
+    image: '/images/constructiveness-paper.jpg',
+    url: '/papers/classifying-constructiveness.pdf',
+    secondaryUrl: 'https://ischool.uw.edu/capstone/projects/2024/classification-constructiveness-social-media-comments-using-large-language',
+    secondaryAction: 'capstone' as const,
+    className: 'project project-paper',
   },
 ]
 
@@ -132,7 +142,9 @@ function App() {
                 ? copy.work.video
                 : project.secondaryAction === 'commit'
                   ? copy.work.kaggle
-                  : copy.work.npm
+                  : project.secondaryAction === 'capstone'
+                    ? copy.work.capstone
+                    : copy.work.npm
               return (
                 <article className={project.className} key={project.title} data-reveal style={{ '--delay': `${index * 80}ms` } as React.CSSProperties}>
                   <a href={project.url} target="_blank" rel="noreferrer" aria-label={`${copy.work.viewProject}: ${project.title}`}>
@@ -151,7 +163,9 @@ function App() {
                         ? <YoutubeLogo weight="fill" />
                         : project.secondaryAction === 'commit'
                           ? <GitCommit weight="bold" />
-                          : <Package weight="fill" />}
+                          : project.secondaryAction === 'capstone'
+                            ? <GraduationCap weight="fill" />
+                            : <Package weight="fill" />}
                       {secondaryLabel}
                     </a>
                   )}
