@@ -103,7 +103,9 @@ h1 em { color: var(--accent); }
 .current-copy p { max-width: 530px; margin-bottom: 34px; color: var(--muted); line-height: 1.7; }
 .current-actions { display: flex; align-items: center; gap: 28px; flex-wrap: wrap; }
 .current-copy span { display: inline-block; padding-top: 10px; border-top: 1px solid var(--accent); color: var(--accent); font-size: .75rem; font-weight: 700; }
-.current-actions .text-link { padding-top: 10px; }
+.current-actions .text-link { padding-top: 10px; white-space: nowrap; }
+.current-source { color: var(--muted); font-size: .75rem; font-weight: 700; transition: color .2s ease; }
+.current-source:hover { color: var(--accent); }
 
 .about-section { display: grid; grid-template-columns: .82fr 1.18fr; gap: clamp(48px, 9vw, 150px); align-items: center; padding-bottom: clamp(130px, 18vw, 260px); }
 .about-photo { aspect-ratio: 4 / 5; overflow: hidden; }

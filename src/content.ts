@@ -28,9 +28,10 @@ export const translations = {
     current: {
       title: 'Currently working on',
       project: 'jp-govtenders',
-      description: 'An open-source Python research pipeline for Japanese public procurement. It collects official KKJ notices, normalizes XML into SQLite, and analyzes regional trends and IT-service demand through a reproducible taxonomy.',
+      description: 'An open-source Python pipeline analyzing 15,230 KKJ procurement notices, with a published report on 2022-2025 IT-service trends across six prefectures.',
       status: 'Active research',
-      link: 'View research',
+      report: 'Read report',
+      source: 'Source code',
     },
     about: {
       title: 'Building cool stuff, one useful system at a time.',
@@ -73,9 +74,10 @@ export const translations = {
     current: {
       title: '現在取り組んでいること',
       project: 'jp-govtenders',
-      description: '日本の公共調達を分析するオープンソースのPython研究パイプラインです。公式KKJ APIから公告を収集し、XMLをSQLiteに正規化して、地域別動向とITサービス需要を再現可能な分類体系で分析します。',
+      description: '15,230件のKKJ調達公告を分析するオープンソースのPythonパイプラインです。6都道府県における2022-2025年のITサービス動向をレポートとして公開しています。',
       status: '調査中',
-      link: 'GitHubで見る',
+      report: 'レポートを読む',
+      source: 'ソースコード',
     },
     about: {
       title: '役に立つ仕組みを、一つずつ。',
@@ -118,9 +120,10 @@ export const translations = {
     current: {
       title: '目前正在開發',
       project: 'jp-govtenders',
-      description: '研究日本政府採購的開源 Python 管線。從官方 KKJ API 蒐集公告，將 XML 正規化至 SQLite，並透過可重現的分類法分析區域趨勢與 IT 服務需求。',
+      description: '分析 15,230 筆 KKJ 採購公告的開源 Python 管線，並發布涵蓋六個都道府縣之 2022-2025 年 IT 服務趨勢報告。',
       status: '研究進行中',
-      link: '查看研究',
+      report: '閱讀報告',
+      source: '原始碼',
     },
     about: {
       title: '一次打造一個真正實用的系統。',

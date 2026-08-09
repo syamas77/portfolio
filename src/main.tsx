@@ -149,8 +149,11 @@ function App() {
             <p>{copy.current.description}</p>
             <div className="current-actions">
               <span>{copy.current.status}</span>
-              <a className="text-link" href="https://github.com/syamas77/jp-govtenders" target="_blank" rel="noreferrer">
-                {copy.current.link} <ArrowUpRight weight="bold" />
+              <a className="text-link" href="https://syamas77.github.io/jp-govtenders/" target="_blank" rel="noreferrer">
+                {copy.current.report} <ArrowUpRight weight="bold" />
+              </a>
+              <a className="current-source" href="https://github.com/syamas77/jp-govtenders" target="_blank" rel="noreferrer">
+                {copy.current.source}
               </a>
             </div>
           </div>
