@@ -11,8 +11,8 @@ export const translations = {
     nav: { work: 'Work', about: 'About', contact: 'Contact', hello: 'Say hello' },
     hero: {
       eyebrow: 'Software Development Engineer at Amazon A9 Search',
-      before: 'I turn complexity into ', emphasis: 'useful', after: ' software.',
-      summary: 'Search infrastructure, AI systems, and full-stack products built for speed, scale, and real-world use.',
+      before: '', emphasis: 'Search systems', after: ' and AI tools that work.',
+      summary: 'I turn indexing, retrieval, and public data into reliable products for real-world use.',
       explore: 'Explore selected work',
     },
     expertise: ['Python + TypeScript', 'Search + AI', 'AWS + Azure'],
@@ -61,8 +61,8 @@ export const translations = {
     nav: { work: '作品', about: '紹介', contact: '連絡', hello: 'メールする' },
     hero: {
       eyebrow: 'Amazon A9 Search ソフトウェア開発エンジニア',
-      before: '複雑さを', emphasis: '使える', after: 'ソフトウェアへ。',
-      summary: '検索基盤、AIシステム、フルスタック製品を、速度と規模、実用性を重視して開発しています。',
+      before: '検索基盤と', emphasis: 'AIツール', after: 'を、実用的な形に。',
+      summary: 'インデックス、検索、公開データを、現実の課題に応える信頼性の高いプロダクトへ変えます。',
       explore: 'プロジェクトを見る',
     },
     expertise: ['Python + TypeScript', '検索 + AI', 'AWS + Azure'],
@@ -111,8 +111,8 @@ export const translations = {
     nav: { work: '作品', about: '關於', contact: '聯絡', hello: '寄信給我' },
     hero: {
       eyebrow: 'Amazon A9 Search 軟體開發工程師',
-      before: '將複雜問題化為', emphasis: '實用', after: '軟體。',
-      summary: '打造兼具速度、規模與實際價值的搜尋基礎架構、AI 系統及全端產品。',
+      before: '打造真正', emphasis: '實用', after: '的搜尋系統與 AI 工具。',
+      summary: '將索引、檢索與公共資料轉化為可靠、能解決真實問題的產品。',
       explore: '查看精選作品',
     },
     expertise: ['Python + TypeScript', '搜尋 + AI', 'AWS + Azure'],

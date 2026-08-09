@@ -176,7 +176,9 @@ function App() {
         </section>
 
         <section className="current-section" aria-labelledby="current-title">
-          <div className="current-mark" aria-hidden="true" data-reveal>JP</div>
+          <div className="current-mark" data-reveal>
+            <img src="/images/procurement-trends.png" alt="Annual Japanese service and IT-indicator procurement notices from 2022 to 2025" loading="lazy" />
+          </div>
           <div className="current-copy" data-reveal>
             <h2 id="current-title">{copy.current.title}</h2>
             <h3>{copy.current.project}</h3>
