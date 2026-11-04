@@ -43,7 +43,6 @@ export const translations = {
       body: 'I build with Python, TypeScript, C#, Java, C++, and SQL across React, Node.js, FastAPI, Angular, AWS, and Azure. I earned my B.S. in Informatics and Data Science from the University of Washington. I also enjoy data analysis, especially turning messy public datasets into clear, reproducible findings.',
       github: 'View GitHub',
     },
-    journal: { title: 'Journal', note: 'A few thoughts from life in Japan.' },
     experience: {
       title: 'Experience + community',
       amazonDate: 'Now', amazon: 'Worked on document attribute transformation and the indexing pipeline, reducing retrieval latency by 40% across 60K monthly requests.',
@@ -94,7 +93,6 @@ export const translations = {
       body: 'Python、TypeScript、C#、Java、C++、SQLを使い、React、Node.js、FastAPI、Angular、AWS、Azureで開発しています。ワシントン大学で情報学・データサイエンスの学士号を取得しました。データ分析も好きで、複雑な公開データを明確で再現可能な知見に変えることに関心があります。',
       github: 'GitHubを見る',
     },
-    journal: { title: '日記', note: '日本での暮らしの中で考えたこと。' },
     experience: {
       title: '経歴 + コミュニティ',
       amazonDate: '現在', amazon: '文書属性の変換とインデックス作成パイプラインに携わり、月間6万件のリクエストで検索遅延を40%削減しました。',
@@ -145,7 +143,6 @@ export const translations = {
       body: '我使用 Python、TypeScript、C#、Java、C++ 與 SQL，並以 React、Node.js、FastAPI、Angular、AWS 及 Azure 開發產品。我擁有華盛頓大學資訊學與資料科學學士學位。我也喜歡資料分析，尤其是將雜亂的公開資料轉化為清楚且可重現的洞見。',
       github: '查看 GitHub',
     },
-    journal: { title: '日記', note: '在日本生活的一些想法。' },
     experience: {
       title: '經歷 + 社群',
       amazonDate: '目前', amazon: '參與文件屬性轉換與索引管線，讓每月 6 萬次請求的檢索延遲降低 40%。',
