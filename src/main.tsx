@@ -88,6 +88,7 @@ function App() {
         <nav className={menuOpen ? 'nav-links is-open' : 'nav-links'} aria-label="Main navigation">
           <a href="#work" onClick={closeMenu}>{copy.nav.work}</a>
           <a href="#about" onClick={closeMenu}>{copy.nav.about}</a>
+          <a href="#journal" onClick={closeMenu}>{copy.nav.journal}</a>
           <a href="#contact" onClick={closeMenu}>{copy.nav.contact}</a>
         </nav>
         <div className="nav-actions">
@@ -205,6 +206,22 @@ function App() {
             <p>{copy.about.body}</p>
             <a className="text-link" href="https://github.com/shinji-Yama77" target="_blank" rel="noreferrer">{copy.about.github} <ArrowUpRight weight="bold" /></a>
           </div>
+        </section>
+
+        <section className="journal-section" id="journal" aria-labelledby="journal-title">
+          <div className="journal-intro" data-reveal>
+            <h2 id="journal-title">{copy.journal.title}</h2>
+            <p>{copy.journal.note}</p>
+          </div>
+          <article className="journal-entry" lang="en" data-reveal>
+            <time dateTime="2026-11-05">Nov 5, 2026</time>
+            <div className="journal-prose">
+              <p>I haven’t written in a while. But I do like writing. Sometimes, it’s hard to communicate how I feel through speech, but writing allows me to gather my thoughts down.</p>
+              <p>I don’t know what to start off with but I’ve been pretty lucky so far in my life, well maybe not so much growing up :/. I’m almost turning 25 now, but what’s ironic is that before moving here, I kept envisioning myself traveling in Japan, but ever since arriving here, I’ve yet to travel to more than 5 different prefectures. Now some might argue that that’s enough but I’ve visited some of them in the past before.</p>
+              <p>I know being busy is such a cliche overused excuse that gets tossed around too easily, but to be fair, I’ve met a lot more people, grew more intellectually ambitious and have been constantly reevaluating myself as a person. Also, not to mention as a bonus, my Japanese has grown tremendously.</p>
+              <p>Interestingly enough, learning Japanese has actually made me realize that language at its core is an expression of human thought that when used effectively can be poetic and even ear soothing lol. I actually never thought of language in that sort of way, but recently I’ve discovered that communication is such an overlooked skill that I’ve wished I spent more time on.</p>
+            </div>
+          </article>
         </section>
 
         <section className="services-section" aria-labelledby="services-title">
